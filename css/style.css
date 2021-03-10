@@ -1,0 +1,181 @@
+/* umumiy sytle*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6,p {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+/* header qismi*/
+#header {
+    background: url("../img/2.jpg") no-repeat center top coral;
+}
+
+#header .logo {
+    width: 130px;
+    height: 75px;
+}
+#header ul li a:hover,
+#header ul li a.current {
+    background-color: #fff;
+    color: #f7c08a
+}
+.nav {
+    padding-top: 69px;
+    display: flex;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color:#000 ;
+}
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+} 
+.menu {
+    display: flex;
+    
+}
+.menu li a {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+.menu li {
+     margin-right: 40px;
+}
+.logo {
+    margin-right: 69px;
+}
+.tel {
+  letter-spacing: 0.1em;  
+  margin-left: auto;
+}
+.taklif {
+    margin-top: 96px;
+    text-transform: uppercase;
+    color: rgba(20, 218, 191, 0.7);
+    padding-bottom: 600px;
+}
+.taklif p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    color:coral;
+}
+.taklif h1 {
+    margin-top: -10px;
+    font-size: 70px;
+    letter-spacing: 0.1em;
+    margin-bottom: 42px;
+}
+.btn {
+    display: block;
+    font-size: 17px;
+    border: 3px solid rgb(235, 238, 36);
+    width: 238px;
+    text-align: center;
+    padding: 17px 47px;
+    margin-left: auto;
+    color: rgb(240, 143, 17);
+    font-weight: 900;
+}
+
+/* malumotlar */
+#Malumotlar {
+    margin-top: 33px;
+}
+#Malumotlar h2 {
+    text-align: center;
+}
+h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
+.ali {
+    margin-top: 50px;
+    margin-bottom: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+.ali p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+.taklif-chap, .taklif-ong {
+    width: 564px;
+}
+.rasm {
+    display: flex;
+    justify-content: space-between;
+}
+.rasm img:hover{
+    box-shadow: 0 20px 20px rgba(0,0,0,0.3);
+    transform: scale(1.1);
+}
+.rasm img {
+    transition: all 0.5s ease;
+}
+/* marketing */
+
+#vizit {
+    margin-top: 33px;
+}
+.cool {
+    margin-top: 50px;
+    margin-bottom: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+.cool img {
+    margin: 0;
+    padding: 0; 
+}
+.cool p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 15px;
+}
+.mar-chap{
+    width: 205px;
+} 
+.mar-orta {
+    width:192px;
+}
+.mar-ong {
+    width: 274px;
+}
+.cool img:hover{
+    box-shadow: 20px 20px 20px 20px rgba(224, 16, 16, 0.342);
+    transform: scale(1.1);
+}
+.cool img {
+    transition: all 0.5s ease;
+}
+#footer {
+    text-align: center;
+    background-color: midnightblue;
+    padding: 20px;
+    color: #fff;
+    padding-top: 0px;
+}
